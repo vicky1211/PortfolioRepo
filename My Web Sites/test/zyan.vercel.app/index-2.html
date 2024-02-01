@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi"
+    />
+    <title>Vivek - Personal Portfolio</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/font-awesome-pro.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/scroll_button.css" />
+    <link rel="stylesheet" href="css/plugin.css" />
+    <link rel="stylesheet" href="css/spacing.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+
+  <body>
+    <!--================================
+        PRELOADER START
+    =================================-->
+    <div class="preloader">
+      <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+        <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+      </svg>
+      <h5 class="preloader-text">Loading</h5>
+    </div>
+    <!--================================
+        PRELOADER END
+    =================================-->
+    <!--================================
+        MENU START
+    =================================-->
+    <nav class="navbar navbar-expand-lg main_menu">
+      <div class="container main_menu_bg">
+        <a class="navbar-brand" href="index-2.html" style="width:240px">
+          <img src="images/logo.png" alt="VIVEK" class="img-fluid w-100" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-sharp fa-regular fa-bars bar_icon"></i>
+          <i class="fa-regular fa-xmark close_icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton active" href="#"
+                >Home <i class="far fa-angle-down"></i
+              ></a>
+              <ul class="droap_menu">
+                <li><a href="index-2.html">Home 1</a></li>
+                <li><a href="index_2.html">Home 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="#">about me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="#service"
+                >services
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="#skills"
+                >Skills
+              </a>
+            </li>
+            <!--<li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="blog_list.html"
+                >blog <i class="far fa-angle-down"></i
+              ></a>
+              <ul class="droap_menu">
+                <li>
+                  <a href="blog_list.html">Project List</a>
+                </li>
+                <li><a href="blog_details.html">Project Details</a></li>
+              </ul>
+            </li>-->
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="contact.html" >
+                contact
+              </a>
+            </li>
+          </ul>
+          <span
+            class="toggle_icon c-pointer"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+            ><i
+              class="fa-sharp fa-sharp fa-regular fa-bars bar_icon-staggered"
+            ></i
+          ></span>
+        </div>
+      </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
+      <div class="offcanvas-header">
+        <a class="offcanvas-logo" href="index_2.html">
+          <img src="images/logo2.png" alt="VIVEK" class="img-fluid w-100" />
+        </a>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        >
+          <i class="fa-regular fa-xmark"></i>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="tf__design_form offcanvas_form">
+          <div class="offcanvas_contact_form">
+            <h4 class="offcanvas_title">Get In Touch</h4>
+            <form action="#">
+              <input
+                type="text"
+                placeholder="Your Name"
+                aria-autocomplete="list"
+              />
+              <input type="email" placeholder="Your Email" />
+              <textarea rows="4" placeholder="Message"></textarea>
+              <button type="submit" class="common_btn">submit now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--================================
+        MENU END
+    =================================-->
+
+    <!--================================
+        BANNER START
+    =================================-->
+    <section
+      class="tf__banner banner"
+      style="background: url(images/bg/banner.jpg)"
+    >
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-xl-6 col-lg-8">
+            <div class="tf__banner_text">
+              <h1>
+                Hi, I'm Vivek! Creative
+                <span class="cd-headline rotate-1">
+                  <span class="cd-words-wrapper">
+                    <b class="is-visible">Developer</b>
+                    <b>Programmer</b>
+                    <b>Web Designer</b>
+                  </span>
+                </span>
+              </h1>
+              <p>
+                I am a dynamic developer boasting more than three years of hands-on experience in the industry. Throughout my journey, I have successfully designed, developed, and implemented top-tier applications, showcasing a diverse skill set and adaptability to various technologies.
+                My expertise centers around Java, Spring Boot, and PLSQL, enabling me to construct robust and scalable applications. I thrive on the challenge of creating seamless user experiences, achieved through the integration of responsive UIs, powerful APIs, and finely tuned databases.
+                 <ul>
+                <li>
+                  <a class="common_btn" href="#"
+                    >Download Cv <i class="fa-solid fa-arrow-down-to-line"></i
+                  ></a>
+                </li>
+                </ul>
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-4">
+            <div class="tf__banner_img">
+              <div class="img">
+                <img
+                  src="images/banner_img_1.png"
+                  alt="ZYAN"
+                  class="img-fluid w-100"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+        BANNER END
+    =================================-->
+    <!--================================
+        SERVICE START
+    =================================-->
+    <section class="tf__service pt_130 xs_pt_80" id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 m-auto">
+            <div class="tf__section_heading mb_40">
+              <h5 class="has-animation">What I can do </h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="tf__single_service fade_left" data-trigerId="service">
+              <span>
+                <img
+                  src="svg/website-design.svg"
+                  alt="service"
+                  class="svg w-100"
+                />
+              </span>
+              <h3>Application Development </h3>
+              <p>
+                I offer full-stack development services to help businesses build custom web applications. I have experience developing scalable, efficient, and flexible modules using agile methodologies, and I take pride in delivering products that meet the unique needs of my clients. My full-stack development services include front-end development, back-end development, database design and development, and API development. I use modern Application development frameworks like Spring-boot, hibernet, and Anguler to build robust and scalable web applications.
+              </p>
+            </div>
+          </div>
+         <div class="col-lg-4 col-md-6">
+            <div class="tf__single_service fade_left" data-trigerId="service">
+              <span>
+                <img
+                  src="svg/logo-design.svg"
+                  alt="service"
+                  class="svg w-100"
+                />
+              </span>
+              <h3>API Development</h3>
+              <p>
+                I offer custom API development services to help businesses integrate different software applications. My APIs are built to be secure, scalable, and efficient, and I work closely with my clients to ensure their needs are met. My API development services include API design and development, API testing, and API documentation. I use modern API development frameworks like Laravel and Express.js to build APIs that are easy to integrate and use.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="tf__single_service fade_left" data-trigerId="service">
+              <span>
+                <img
+                  src="svg/app-development.svg"
+                  alt="service"
+                  class="svg w-100"
+                />
+              </span>
+              <h3>Website Development</h3>
+              <p>
+                I offer custom front-end development services to create engaging, responsive user interfaces that deliver an exceptional user experience. I work closely with clients to understand their unique needs and design a user interface that meets their specific requirements. My services include developing custom templates, UI components, and responsive layouts that are optimized for desktop, tablet, and mobile devices. I use modern front-end frameworks like React, and Vue.js to build web applications that are fast, efficient, and scalable.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+        SERVICE END
+    =================================-->
+
+    <!--================================
+        ABOUT START
+    =================================-->
+    <section class="tf__about pt_140 xs_pt_80" id="about">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-xxl-7 col-lg-6 col-xl-6">
+            <div class="tf__section_heading pb_80 xs_pb_50">
+              <h5 class="has-animation">About Me</h5>
+              <h2 class="has-animation">
+                Unleashing Solutions, One Challenge at a Time
+              </h2>
+            </div>
+            <div class="tf__about_text">
+              <p>
+                I'm a Software Developer from Buldhana, now living in Pune. <br>
+                I love taking on challenging coding projects that push my skills to new heights.<br>
+                When I'm not coding, you'll likely find me on the cricket field or engrossed in PC games.<br>
+                Feel free to download my CV from the link below .
+              </p>
+              <a class="common_btn" href="#"
+                >Download Cv <i class="fa-solid fa-arrow-down-to-line"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-lg-6 col-xl-6">
+            <div class="tf__about_img fade_right" data-trigerId="about">
+              <img
+                src="images/vivek_img.jpg"
+                alt="ZYAN"
+                class="img-fluid w-100"
+              />
+              <div class="tf__about_img_text">
+                <i class="fas fa-chart-pie-alt"></i>
+                <div class="tf__about_content">
+                  <h4>3+ years of Experience</h4>
+                  <p>In Software Development</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+        ABOUT END
+    =================================-->
+
+
+    <!--================================
+        SKILLS START
+    =================================-->
+    <section class="tf__skills pt_115 xs_pt_75 pb_70 xs_pb_30" id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-10 col-lg-8 m-auto mb_60">
+            <div class="tf__section_heading mb_40">
+              <h5 class="has-animation">Experience & Education & Skill </h5>
+              <h2 class="has-animation">
+                With each company I've worked with,  <br />
+                I have learned new skills and techniques that I bring to every project I work on.
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-6 col-lg-6">
+            <div
+                    class="tf__single_skills fade_bottom"
+                    data-trigerId="skills"
+                    data-stagger=".25">
+              <span>2021 - 2024</span>
+              <h3>Software Developer - Amdocs</h3>
+              <p>Worked on projects in the telecom domain, specifically focusing on Cramer, PNI, and Krug Tool.</p>
+              <ul style="list-style:circle !important; margin:unset">
+                <li style="list-style:unset; margin-left:20px;">  My responsibilities include analyzing and estimating client requirements, preparing technical specifications, and developing generic solutions that meet the requirements.</li>
+                <li style="list-style:unset; margin-left:20px;">  Successfully delivered multiple projects (CRs) for companies like Vodafone Germany .</li>
+                <li style="list-style:unset; margin-left:20px;">  Developed Webservices/API to facilitate communication and data exchange.</li>
+                <li style="list-style:unset; margin-left:20px;">  Worked on defects to managed existing Soap and Rest APIs to ensure smooth operation and integration with other systems.</li>
+                <li style="list-style:unset; margin-left:20px;">  Worked on various components of the Cramer system, such as the Task-engine, Homepages, API/Import, and Tal-res, handling new change requests (CR) and defect resolutions.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__single_skills fade_bottom"
+              data-trigerId="skills"
+              data-stagger=".13">
+              <span>2020 - 2021</span>
+              <h3> Software Engineer -(Servosys Solution)</h3>
+             <ul style="list-style:circle !important; margin:unset">
+               <li style="list-style:unset; margin-left:20px;"> Worked on frontend and backend development.</li>
+               <li  style="list-style:unset; margin-left:20px;"> Designing user interactions on web pages using JSP.</li>
+               <li  style="list-style:unset; margin-left:20px;"> Developing backend website applications using JAVA.</li>
+               <li  style="list-style:unset; margin-left:20px;"> Building responsive frontend with Bootstrap and JavaScript.</li>
+               <li  style="list-style:unset; margin-left:20px;">  Used some functionality of servosys Product for development.</li>
+                <li  style="list-style:unset; margin-left:20px;">  Handled the data using Servlet, Ajax, and JSON, API.</li>
+             </ul>
+            </div>
+          </div>
+
+          <div class="col-xl-6 col-lg-6">
+            <div
+              class="tf__single_skills fade_bottom"
+              data-trigerId="skills"
+              data-stagger=".25">
+              <span>2016 - 2019</span>
+              <h3>Bachelor of Engineering (CSE)</h3>
+              <p>Sant Gadage baba Amravati University</p>
+              <p>
+                I completed my Bachelor's degree in Computer Science in 2019 with a notable CGPA of 7.4. This academic accomplishment highlights my proficiency in the field and my dedication to advancing my knowledge in computer science.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div
+                    class="tf__single_skills fade_bottom"
+                    data-trigerId="skills"
+                    data-stagger=".25" >
+              <span>2013 - 2016</span>
+              <h3>Diploma In Computer Engineering</h3>
+              <p>Government Polytechnic Gadchiroli </p>
+              <p> I earned a Full-Time Diploma in 2016 with distinction, attaining a notable score of 76.50%. This accomplishment reflects my commitment to academic excellence and a disciplined approach to my educational pursuits </p>
+
+            </div>
+          </div>
+        <!--  <div class="col-xl-6 col-lg-6">             <div
+                    class="tf__single_skills fade_bottom"
+                    data-trigerId="skills"
+                    data-stagger=".25">
+            <span>2019 - 2020</span>
+            <h3>Qspider Wakad Pune</h3>
+              <p>Full Stack Development Course</p>
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+              </p>
+            </div>
+          </div>-->
+        </div>
+        <div class="row">
+          <div class="col-xl-6 col-lg-6">
+            <div
+              class="tf__team_skills_bar_single fade_bottom"
+              data-trigerId="skills"
+              data-stagger=".25">
+              <p>HTML</p>
+              <div id="bar1" class="barfiller">
+                <div class="tipWrap">
+                  <span class="tip"></span>
+                </div>
+                <span class="fill" data-percentage="80"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div
+              class="tf__team_skills_bar_single fade_bottom"
+              data-trigerId="skills"
+              data-stagger=".25"    >
+              <p>Java</p>
+              <div id="bar2" class="barfiller">
+                <div class="tipWrap">
+                  <span class="tip"></span>
+                </div>
+                <span class="fill" data-percentage="85"></span>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-xl-6 col-lg-6">
+            <div
+              class="tf__team_skills_bar_single fade_bottom"
+              data-trigerId="skills"
+              data-stagger=".25"
+            >
+              <p>CSS</p>
+              <div id="bar3" class="barfiller">
+                <div class="tipWrap">
+                  <span class="tip"></span>
+                </div>
+                <span class="fill" data-percentage="70"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div
+              class="tf__team_skills_bar_single fade_bottom"
+              data-trigerId="skills"
+              data-stagger=".25"
+            >
+              <p>PLSQL</p>
+              <div id="bar4" class="barfiller">
+                <div class="tipWrap">
+                  <span class="tip"></span>
+                </div>
+                <span class="fill" data-percentage="70"></span>
+              </div>
+            </div>
+          </div>
+        <div class="col-xl-6 col-lg-6">
+          <div
+                  class="tf__team_skills_bar_single fade_bottom"
+                  data-trigerId="skills"
+                  data-stagger=".25"
+          >
+            <p>Javascript</p>
+            <div id="bar5" class="barfiller">
+              <div class="tipWrap">
+                <span class="tip"></span>
+              </div>
+              <span class="fill" data-percentage="70"></span>
+            </div>
+          </div>
+        </div>
+          <div class="col-xl-6 col-lg-6">
+            <div
+              class="tf__team_skills_bar_single fade_bottom"
+              data-trigerId="skills"
+              data-stagger=".25"
+            >
+              <p>Spring boot 5</p>
+              <div id="bar6" class="barfiller">
+                <div class="tipWrap">
+                  <span class="tip"></span>
+                </div>
+                <span class="fill" data-percentage="70"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div
+              class="tf__team_skills_bar_single fade_bottom"
+              data-trigerId="skills"
+              data-stagger=".25"
+            >
+              <p>React js</p>
+              <div id="bar7" class="barfiller">
+                <div class="tipWrap">
+                  <span class="tip"></span>
+                </div>
+                <span class="fill" data-percentage="40"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+        SKILLS END
+    =================================-->
+
+    <!--================================
+        DESIGN START
+    =================================-->
+
+    <section class="tf__design mt_135 xs_mt_40 mb_120 xs_mb_80 " id="counter" >
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__design_form">
+              <h2 class="has-animation">Connect with me </h2>
+              <p class="">
+                Open to exciting career opportunities and eager to contribute my skills to any forward-thinking firm. If you're seeking a dedicated and passionate professional, I'm ready to bring my expertise to your team. Let's explore how my skills align with your organization's goals. I look forward to the possibility of joining your esteemed team.
+              </p>
+              <form action="#">
+                <input class="" type="text" placeholder="Your Name" />
+                <input class="" type="email" placeholder="Your Email" />
+                <input class="" type="text" placeholder="Phone Number" />
+                <textarea class="" rows="4" placeholder="Message"></textarea>
+                <button type="submit" class="common_btn">submit now</button>
+              </form>
+            </div>
+          </div>
+            <div class="col-xl-6 col-lg-6">
+             <div class="tf__contact_map">
+              <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7299.9714197014055!2d90.45054656894744!3d23.819107188100446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c884b37fc1a7%3A0x4abc58eea42b43c3!2sBlock%20M%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1692295852649!5m2!1sen!2sbd"
+                      style="border: 0"
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!--================================
+        DESIGN END
+    =================================-->
+    <!--================================
+        PORTFOLIO START
+    =================================-->
+   <!-- <section class="tf__portfolio mt_120 xs_mt_80" id="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-10 col-lg-9 mb_30">
+            <div class="tf__section_heading">
+              <h5 class="has-animation">my recent Portfolio</h5>
+              <h2 class="has-animation">
+                Elevate your brand to new <br />
+                heights with our portfolio expertise
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-8 col-md-6">
+            <a
+              href="https://www.youtube.com/watch?v=B-ytMSuwbf8"
+              class="tf__portfolio_item play_btn"
+              data-cursor="Watch <br> video"
+            >
+              <img
+                src="images/portfolio/1.jpg"
+                alt="portfolio"
+                class="img-fluid w-100"
+              />
+              <div class="text">
+                <h4>sheet metal bending</h4>
+                <p>youtube</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <a
+              class="tf__portfolio_item play_btn"
+              href="https://vimeo.com/132528823"
+              data-cursor="Watch <br> video"
+            >
+              <img
+                src="images/portfolio/2.jpg"
+                alt="portfolio"
+                class="img-fluid w-100"
+              />
+              <div class="text">
+                <h4>sheet metal bending</h4>
+                <p>Vimeo</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-6 col-md-6">
+            <a
+              href="https://w.soundcloud.com/player/?visual=true&amp;url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F159967086&amp;show_artwork=true&amp;maxwidth=1020&amp;maxheight=1000&amp;auto_play=1"
+              class="tf__portfolio_item play_btn"
+              data-cursor="Audio <br> sound"
+            >
+              <img
+                src="images/portfolio/3.jpg"
+                alt="portfolio"
+                class="img-fluid w-100"
+              />
+              <div class="text">
+                <h4>sheet metal bending</h4>
+                <p>soundcloud</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-6 col-md-6">
+            <a
+              href="images/portfolio/4.jpg"
+              class="tf__portfolio_item image_popup"
+              data-cursor="View <br> Image"
+            >
+              <img
+                src="images/portfolio/4.jpg"
+                alt="portfolio"
+                class="img-fluid w-100"
+              />
+              <div class="text">
+                <h4>sheet metal bending</h4>
+                <p>Image</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>-->
+    <!--================================
+        PORTFOLIO END
+    =================================-->
+
+     <!--================================
+        BLOG START
+    =================================-->
+    <!--<section class="tf__blog pt_125 xs_pt_75 pb_40 xs_pb_0" id="blogs">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 col-lg-9 mb_30">
+            <div class="tf__section_heading">
+              <h5 class="has-animation">My blog</h5>
+              <h2 class="has-animation">
+                Unlocking the potential of your personal brand
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-md-6">
+            <div class="tf__slingle_blog fade_left" data-trigerId="blogs">
+              <a
+                href="blog_details.html"
+                class="tf__blog_img"
+                data-cursor="read <br> more"
+              >
+                <img
+                  src="images/blog/1.jpg"
+                  alt="blog"
+                  class="img-fluid w-100"
+                />
+              </a>
+              <div class="tf__blog_text">
+                <span>31 December,2022</span>
+                <ul>
+                  <li>
+                    <i class="fa-sharp fa-solid fa-circle-user"></i> By admin
+                  </li>
+                  <li>
+                    <i class="fa-sharp fa-solid fa-comments"></i> Comments (05)
+                  </li>
+                </ul>
+                <a href="blog_details.html"
+                  >The standard personal My portfolio</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div class="tf__slingle_blog fade_left" data-trigerId="blogs">
+              <a
+                href="blog_details.html"
+                class="tf__blog_img"
+                data-cursor="read <br> more"
+              >
+                <img
+                  src="images/blog/2.jpg"
+                  alt="blog"
+                  class="img-fluid w-100"
+                />
+              </a>
+              <div class="tf__blog_text">
+                <span>31 December,2022</span>
+                <ul>
+                  <li>
+                    <i class="fa-sharp fa-solid fa-circle-user"></i> By admin
+                  </li>
+                  <li>
+                    <i class="fa-sharp fa-solid fa-comments"></i> Comments (05)
+                  </li>
+                </ul>
+                <a href="blog_details.html"
+                  >The standard personal My portfolio</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div class="tf__slingle_blog fade_left" data-trigerId="blogs">
+              <a
+                href="blog_details.html"
+                class="tf__blog_img"
+                data-cursor="read <br> more"
+              >
+                <img
+                  src="images/blog/3.jpg"
+                  alt="blog"
+                  class="img-fluid w-100"
+                />
+              </a>
+              <div class="tf__blog_text">
+                <span>31 December,2022</span>
+                <ul>
+                  <li>
+                    <i class="fa-sharp fa-solid fa-circle-user"></i> By admin
+                  </li>
+                  <li>
+                    <i class="fa-sharp fa-solid fa-comments"></i> Comments (05)
+                  </li>
+                </ul>
+                <a href="blog_details.html"
+                  >The standard personal My portfolio</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <a href="blog_list.html" class="common_btn">More Blog +</a>
+          </div>
+        </div>
+      </div>
+    </section>-->
+    <!--================================
+        BLOG END
+    =================================-->
+    <!--================================
+        FOOTER START
+    =================================-->
+    <footer class="footer" id="footer">
+      <div class="footer-container">
+        <div class="pt_120 xs_pt_80 sm_pt_80">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div
+                  class="tf__footer_content fade_right"
+                  data-trigerId="footer"
+                  data-stagger=".25"
+                >
+                  <div class="icon">
+                    <div class="icon-contianer">
+                      <img
+                        src="svg/map.svg"
+                        alt="footer"
+                        class="img-fluid w-100 svg"
+                      />
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>Address</h3>
+                    <p>Jalgaon Jamod,<br> Buldhana 443403</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div
+                  class="tf__footer_content fade_right"
+                  data-trigerId="footer"
+                  data-stagger=".25"
+                >
+                  <div class="icon">
+                    <div class="icon-contianer">
+                      <img
+                        src="svg/phone.svg"
+                        alt="footer"
+                        class="img-fluid w-100 svg"
+                      />
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>Lets talk us</h3>
+                    <a href="callto:9370214684">9370214684</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div
+                  class="tf__footer_content fade_right"
+                  data-trigerId="footer"
+                  data-stagger=".25"
+                >
+                  <div class="icon">
+                    <div class="icon-contianer">
+                      <img
+                        src="svg/envelope.svg"
+                        alt="footer"
+                        class="img-fluid w-100 svg"
+                      />
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>Send us email</h3>
+                    <a href="mailto:rakhondevivek1211@gmail.com"
+                      >rakhondevivek1211@gmail.com</a
+                    >
+                    <a href="mailto:vivek.rakhonde1998@gmail.com">vivek.rakhonde1998@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="tf__footer_copyright">
+                  <p>© Vivek R | All Rights Reserved</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--================================
+  FOOTER END
+=================================-->
+    <!--================================
+        SCROLL BUTTON START
+    =================================-->
+    <div class="progress active c-pointer">
+      <svg
+        class="progress-svg"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+      </svg>
+    </div>
+    <!--================================
+        SCROLL BUTTON END
+    =================================-->
+
+    <!--================================
+        CURSOR START
+    =================================-->
+    <div id="magic-cursor">
+      <div id="ball"></div>
+    </div>
+    <!--================================
+        CURSOR END
+    =================================-->
+
+    <script src="js/plugin.js"></script>
+    <!--scroll button js-->
+    <script src="js/scroll_button.js"></script>
+    <!--sticky sidebar js-->
+    <script src="js/sticky_sidebar.js"></script>
+    <!-- Animation -->
+    <script src="js/animation.js"></script>
+    <!--main/custom js-->
+    <script src="js/main.js"></script>
+  </body>
+
+</html>
